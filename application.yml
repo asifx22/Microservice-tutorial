@@ -1,5 +1,6 @@
 eureka:
   instance:
+    prefer-ip-address: false
   client:
     fetch-registry: true
     register-with-eureka: true
